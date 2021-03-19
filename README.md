@@ -12,7 +12,7 @@
 - Diagram creation permission : use [MNDAPP] EXEC sp_changedbowner 'sa'
 
 - Authoization sqlserver User : ALTER AUTHORIZATION ON DATABASE::PANDA2021 TO [sa];
-- 
+
 - Enable service broker : ALTER DATABASE PANDA2021 SET ENABLE_BROKER WITH NO_WAIT;
-- 
+
 - View service broker status : SELECT is_broker_enabled FROM sys.databases WHERE name = 'PANDA2021';

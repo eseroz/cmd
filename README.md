@@ -16,3 +16,5 @@
 - Enable service broker : ALTER DATABASE PANDA2021 SET ENABLE_BROKER WITH NO_WAIT;
 
 - View service broker status : SELECT is_broker_enabled FROM sys.databases WHERE name = 'PANDA2021';
+- Execute Large Script : SQLCMD -d <database-name> -i filename.sql
+

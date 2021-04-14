@@ -18,3 +18,6 @@
 - View service broker status : SELECT is_broker_enabled FROM sys.databases WHERE name = 'PANDA2021';
 - Execute Large Script : SQLCMD -d <database-name> -i filename.sql
 
+- Enable Service Broker - ALTER DATABASE MNDAPPDB SET ENABLE_BROKER;
+- Check Service Broker - SELECT is_broker_enabled FROM sys.databases WHERE name = 'MNDAPPDB';
+

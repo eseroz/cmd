@@ -19,5 +19,6 @@
 - Execute Large Script : SQLCMD -d <database-name> -i filename.sql
 
 - Enable Service Broker - ALTER DATABASE MNDAPPDB SET ENABLE_BROKER;
+                        - ALTER DATABASE MNDAPPDB SET NEW_BROKER WITH ROLLBACK IMMEDIATE
 - Check Service Broker - SELECT is_broker_enabled FROM sys.databases WHERE name = 'MNDAPPDB';
 

@@ -22,3 +22,4 @@
                         - ALTER DATABASE MNDAPPDB SET NEW_BROKER WITH ROLLBACK IMMEDIATE
 - Check Service Broker - SELECT is_broker_enabled FROM sys.databases WHERE name = 'MNDAPPDB';
 
+https://sqlizer.io
